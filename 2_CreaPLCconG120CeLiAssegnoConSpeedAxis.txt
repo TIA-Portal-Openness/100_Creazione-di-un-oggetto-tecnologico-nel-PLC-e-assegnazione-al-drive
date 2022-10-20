@@ -88,7 +88,7 @@ namespace ConsoleAppOraz
             miaConnessione.ActorInterface.Connect(mioIndirizzoByteIniziale * 8, mioIndirizzoByteIniziale * 8, ConnectOption.Default);
 
 	    //Salva progetto
-            mioprogettoTIA.Save();
+            mioProgettoTIA.Save();
 
         }
     }
